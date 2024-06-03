@@ -153,8 +153,6 @@ jobs:
             %0ACek disini: $CURRENT_REPO
             "
 
----- script sebelumnya ---
-
   deploy:
     name: Deploy
     runs-on: ubuntu-latest
@@ -223,4 +221,3 @@ jobs:
 
       - name: Delete SSH Key
         run: rm -f ssh_private_key_cicd_polindra
-
